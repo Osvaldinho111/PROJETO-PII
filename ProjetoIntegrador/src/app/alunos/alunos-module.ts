@@ -8,4 +8,7 @@ import { CadastrosAlunos } from './cadastros-alunos/cadastros-alunos';
   declarations: [CadastrosAlunos],
   imports: [CommonModule, AlunosRoutingModule],
 })
-export class AlunosModule {}
+export class AlunosModule {
+}
+
+
