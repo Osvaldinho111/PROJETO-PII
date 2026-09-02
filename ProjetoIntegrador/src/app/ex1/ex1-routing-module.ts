@@ -4,8 +4,8 @@ import { Exercicio2 } from './exercicio2/exercicio2';
 import { Exercicio1 } from './exercicio1/exercicio-1';
 
 const routes: Routes = [
-  {path:'exercicio-1', component: Exercicio1},
-  {path:'exercicio-1', component: Exercicio2},
+  {path:'exercicio1', component: Exercicio1},
+  {path:'exercicio2', component: Exercicio2},
 
 ];
 
