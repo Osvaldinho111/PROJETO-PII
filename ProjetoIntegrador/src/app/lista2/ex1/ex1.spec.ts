@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-ex1',
+  standalone: false,
+  templateUrl: './ex1.html'
+})
+export class Ex1 {
+  mensagemVisivel = false;
+
+  alternarMensagem() {
+    this.mensagemVisivel = !this.mensagemVisivel;
+  }
+}
