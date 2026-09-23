@@ -1,2 +1,10 @@
+<app-cabecalho [Loja]='cabecalhoLoja'></app-cabecalho>
+<h1>Página Principal</h1>
+
+<div class="lista-produtos">
+  <app-card-produto [nome]='NomeProduto1' [preco]='precoProduto1' [disponivel]='Disponivel1'></app-card-produto>
+  <app-card-produto [nome]='NomeProduto2' [preco]='precoProduto2' [disponivel]='Disponivel2'></app-card-produto>
+  <app-card-produto [nome]='NomeProduto3' [preco]='precoProduto3' [disponivel]='Disponivel3'></app-card-produto>
+</div>
 
 <router-outlet />

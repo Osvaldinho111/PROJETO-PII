@@ -1,0 +1,7 @@
+<div class="card">
+  <h3>{{ nome }}</h3>
+  <p class="preco">R$ {{ preco | number:'1.2-2' }}</p>
+  <span class="status" [class.disponivel]="disponivel" [class.indisponivel]="!disponivel">
+    {{ disponivel ? 'Disponível' : 'Indisponível' }}
+  </span>
+</div>
